@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap');
-
 * {
   margin: 0;
   padding: 0;
@@ -9,23 +7,23 @@
 body {
   background: #1a1a1a;
   color: #b0b0b0;
-  font-family: 'EB Garamond', Georgia, serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+  font-size: 0.95rem;
   line-height: 1.8;
   -webkit-font-smoothing: antialiased;
 }
 
 .container {
-  max-width: 520px;
+  max-width: 580px;
   margin: 120px auto;
   padding: 0 24px;
 }
 
 .container.post {
-  max-width: 720px;
+  max-width: 680px;
 }
 
 h1 {
-  font-family: 'Inter', -apple-system, sans-serif;
   font-size: 1.3rem;
   font-weight: 500;
   letter-spacing: 0.08em;
@@ -41,9 +39,7 @@ hr {
 }
 
 .intro {
-  font-family: 'Inter', -apple-system, sans-serif;
   color: #6a6a6a;
-  font-size: 0.9rem;
   font-weight: 300;
   line-height: 1.7;
   margin-bottom: 20px;
@@ -83,7 +79,6 @@ hr {
 .posts a {
   color: #8a8a8a;
   text-decoration: none;
-  font-size: 1.1rem;
   transition: color 0.3s;
 }
 
@@ -93,18 +88,16 @@ hr {
 
 /* Post pages */
 .post-title {
-  font-family: 'EB Garamond', Georgia, serif;
-  font-size: 1.6rem;
-  font-weight: 400;
+  font-size: 1.4rem;
+  font-weight: 500;
   color: #c0c0c0;
   margin-bottom: 6px;
   line-height: 1.4;
 }
 
 .post-date {
-  font-family: 'Inter', sans-serif;
   color: #4a4a4a;
-  font-size: 0.7rem;
+  font-size: 0.75rem;
   font-weight: 300;
   letter-spacing: 0.1em;
   text-transform: uppercase;
@@ -112,12 +105,11 @@ hr {
 }
 
 .post-body {
-  font-size: 1.1rem;
   color: #8a8a8a;
 }
 
 .post-body p {
-  margin-bottom: 28px;
+  margin-bottom: 24px;
 }
 
 .post-body ul {
@@ -128,7 +120,6 @@ hr {
 
 .post-body li {
   color: #8a8a8a;
-  font-size: 1.1rem;
   margin-bottom: 16px;
   line-height: 1.8;
 }
@@ -146,10 +137,9 @@ hr {
 .back {
   display: inline-block;
   margin-top: 48px;
-  font-family: 'Inter', sans-serif;
   color: #3a3a3a;
   text-decoration: none;
-  font-size: 0.7rem;
+  font-size: 0.75rem;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   transition: color 0.3s;

@@ -124,6 +124,12 @@ hr {
   line-height: 1.8;
 }
 
+.post-image {
+  width: 100%;
+  border-radius: 6px;
+  margin-bottom: 24px;
+}
+
 .post-body a {
   color: #999;
   text-decoration: underline;
@@ -152,4 +158,40 @@ hr {
 ::selection {
   background: #333;
   color: #ddd;
+}
+
+@media (max-width: 600px) {
+  .container {
+    margin: 60px auto;
+    padding: 0 20px;
+  }
+
+  h1 {
+    font-size: 1.1rem;
+    margin-bottom: 24px;
+  }
+
+  hr {
+    margin: 24px 0;
+  }
+
+  .intro {
+    margin-bottom: 16px;
+  }
+
+  .post-title {
+    font-size: 1.2rem;
+  }
+
+  .post-date {
+    margin-bottom: 28px;
+  }
+
+  .post-body p {
+    margin-bottom: 20px;
+  }
+
+  .back {
+    margin-top: 36px;
+  }
 }
